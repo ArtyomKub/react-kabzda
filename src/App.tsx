@@ -8,7 +8,9 @@ export function App() {
         <div className="App">
             <PageTitle title = {'This is APP component'}/>
             <PageTitle title = {'Fucking sheet'}/>
-            <Accordion/>
+            <Accordion title = {'GOD'}/>
+            <Accordion title = {'AAA'}/>
+            <Accordion title = {'OOO'}/>
             <Rating value = {0}/>
             <Rating value = {1}/>
             <Rating value = {2}/>
