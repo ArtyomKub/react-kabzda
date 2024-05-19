@@ -13,7 +13,7 @@ export function App() {
 
 export function AppTitle() {
     return (
-        <div>This is APP component</div>
+        <>This is APP component</>
     )
 }
 
@@ -33,7 +33,7 @@ export function Rating() {
 export function Accordion() {
     return (
         <div>
-            <h3>Menu</h3>
+            <AccordionTitle/>
             <ul>
                 <li>1</li>
                 <li>2</li>
@@ -42,6 +42,15 @@ export function Accordion() {
         </div>
     )
 }
+
+export function AccordionTitle() {
+    return (
+        <div>
+            <h3>MENU</h3>
+        </div>
+    )
+}
+
 
 export function Star() {
     return (
