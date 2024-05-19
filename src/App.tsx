@@ -6,18 +6,25 @@ import {Rating} from './components/Rating/Rating';
 export function App() {
     return (
         <div className="App">
-            <AppTitle/>
-            <Rating value = {2}/>
-            <Rating value = {1}/>
-            <Rating value = {7}/>
+            <PageTitle title = {'This is APP component'}/>
             <Accordion/>
+            <Rating value = {0}/>
+            <Rating value = {1}/>
+            <Rating value = {2}/>
+            <Rating value = {3}/>
+            <Rating value = {4}/>
+            <Rating value = {5}/>
         </div>
     );
 }
 
-export function AppTitle() {
+type PageTitleType = {
+    title: string
+}
+
+export function PageTitle(props: PageTitleType) {
     return (
-        <>This is APP component</>
+        <h1>{props.title}</h1>
     )
 }
 

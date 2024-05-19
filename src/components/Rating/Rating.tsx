@@ -9,17 +9,7 @@ type RatingType = {
 }
 
 export function Rating(props: RatingType) {
-    if (props.value === 0) {
-        return (
-            <div>
-                <Star selected={false}/>
-                <Star selected={false}/>
-                <Star selected={false}/>
-                <Star selected={false}/>
-                <Star selected={false}/>
-            </div>
-        )
-    }
+
     if (props.value === 1) {
         return (
             <div>
@@ -74,23 +64,26 @@ export function Rating(props: RatingType) {
                 <Star selected={true}/>
             </div>
         )
-    } else {
-        return (
-            <div>
-                'ERROR'
-            </div>
-        )
     }
+    return (
+        <div>
+            <Star selected={false}/>
+            <Star selected={false}/>
+            <Star selected={false}/>
+            <Star selected={false}/>
+            <Star selected={false}/>
+        </div>
+    )
 }
 
 function Star(props: StarType) {
     if (!props.selected) {
         return (
-            <span><b>Star</b> </span>
+            <span>Star </span>
         )
     } else {
         return (
-            <span>Star </span>
+            <span><b>Star</b> </span>
         )
     }
 }
