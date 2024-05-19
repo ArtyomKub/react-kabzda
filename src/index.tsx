@@ -52,5 +52,9 @@ let users = [
     }
 ]
 
+let b: Array<number>;
+b=[1,2,3,4,5,6,7,8,9,10];
+b=[]
+b=[1,2,3,4,5,6,7]
 
-console.log(users[0].address.city)
+console.log(b)
