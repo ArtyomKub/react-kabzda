@@ -15,11 +15,12 @@ export function App() {
 export function Rating() {
     return (
         <div>
-            <div>star</div>
-            <div>star</div>
-            <div>star</div>
-            <div>star</div>
-            <div>star</div>
+            <Star/>
+            <Star/>
+            <Star/>
+            <Star/>
+            <Star/>
+            <Star/>
         </div>
     )
 }
@@ -34,5 +35,11 @@ export function Accordion() {
                 <li>3</li>
             </ul>
         </div>
+    )
+}
+
+export function Star() {
+    return (
+        <div>Star</div>
     )
 }
