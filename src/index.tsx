@@ -52,9 +52,10 @@ let users = [
     }
 ]
 
-let b: Array<number>;
+let b: Array<string | number>;
 b=[1,2,3,4,5,6,7,8,9,10];
 b=[]
 b=[1,2,3,4,5,6,7]
+b=[123,12,124,'ted',12,'dog',2134]
 
 console.log(b)
