@@ -6,11 +6,10 @@ export function App() {
         <div className="App">
             This is APP component
             <Rating/>
+            <Accordion/>
         </div>
     );
 }
-
-export default App;
 
 
 export function Rating() {
@@ -21,6 +20,19 @@ export function Rating() {
             <div>star</div>
             <div>star</div>
             <div>star</div>
+        </div>
+    )
+}
+
+export function Accordion() {
+    return (
+        <div>
+            <h3>Menu</h3>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
         </div>
     )
 }
