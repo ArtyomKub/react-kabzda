@@ -20,11 +20,11 @@ export function App() {
     );
 }
 
-type PageTitleType = {
+type PageTitlePropsType = {
     title: string
 }
 
-export function PageTitle(props: PageTitleType) {
+export function PageTitle(props: PageTitlePropsType) {
     return (
         <h1>{props.title}</h1>
     )
