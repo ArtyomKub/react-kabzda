@@ -7,8 +7,9 @@ export function App() {
     return (
         <div className="App">
             <AppTitle/>
-            <Rating/>
-            <Rating/>
+            <Rating value = {2}/>
+            <Rating value = {1}/>
+            <Rating value = {7}/>
             <Accordion/>
         </div>
     );
