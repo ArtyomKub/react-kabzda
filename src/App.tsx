@@ -33,24 +33,6 @@ export function Rating() {
 
 
 
-export function AccordionTitle() {
-    return (
-        <div>
-            <h3>MENU</h3>
-        </div>
-    )
-}
-
-export function AccordionBody() {
-    return (
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-        </ul>
-    )
-}
-
 export function Star() {
     return (
         <div>Star</div>
