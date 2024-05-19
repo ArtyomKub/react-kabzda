@@ -7,6 +7,7 @@ export function App() {
     return (
         <div className="App">
             <PageTitle title = {'This is APP component'}/>
+            <PageTitle title = {'Fucking sheet'}/>
             <Accordion/>
             <Rating value = {0}/>
             <Rating value = {1}/>
