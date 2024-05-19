@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import {Accordion} from './components/Accordion/Accordion';
+import {Rating} from './components/Rating/Rating';
 
 export function App() {
     return (
@@ -18,23 +19,5 @@ export function AppTitle() {
     )
 }
 
-export function Rating() {
-    return (
-        <div>
-            <Star/>
-            <Star/>
-            <Star/>
-            <Star/>
-            <Star/>
-            <Star/>
-        </div>
-    )
-}
 
 
-
-export function Star() {
-    return (
-        <div>Star</div>
-    )
-}
