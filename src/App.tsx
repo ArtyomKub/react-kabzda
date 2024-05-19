@@ -34,11 +34,7 @@ export function Accordion() {
     return (
         <div>
             <AccordionTitle/>
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
+            <AccordionBody/>
         </div>
     )
 }
@@ -51,6 +47,17 @@ export function AccordionTitle() {
     )
 }
 
+export function AccordionBody() {
+    return (
+        <div>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+        </div>
+    )
+}
 
 export function Star() {
     return (
