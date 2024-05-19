@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import {Accordion} from './components/Accordion/Accordion';
 
 export function App() {
     return (
@@ -30,14 +31,7 @@ export function Rating() {
     )
 }
 
-export function Accordion() {
-    return (
-        <div>
-            <AccordionTitle/>
-            <AccordionBody/>
-        </div>
-    )
-}
+
 
 export function AccordionTitle() {
     return (
@@ -49,13 +43,11 @@ export function AccordionTitle() {
 
 export function AccordionBody() {
     return (
-        <div>
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
-        </div>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
     )
 }
 
