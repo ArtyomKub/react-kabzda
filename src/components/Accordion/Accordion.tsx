@@ -1,13 +1,13 @@
 import React from 'react';
 
 type AccordionTitleType = {
-    title: string
+    titleValue: string
 }
 
 export function Accordion(props: AccordionTitleType) {
     return (
         <div>
-            <AccordionTitle title={props.title}/>
+            <AccordionTitle titleValue={props.titleValue}/>
             <AccordionBody/>
         </div>
     )
@@ -16,7 +16,7 @@ export function Accordion(props: AccordionTitleType) {
 
 function AccordionTitle(props: AccordionTitleType) {
     return (
-        <h3>{props.title}</h3>
+        <h3>{props.titleValue}</h3>
     )
 }
 
