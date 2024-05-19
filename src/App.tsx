@@ -8,6 +8,7 @@ export function App() {
         <div className="App">
             <AppTitle/>
             <Rating/>
+            <Rating/>
             <Accordion/>
         </div>
     );
