@@ -11,8 +11,8 @@ export function App() {
     return (
         <div className="App">
             <PageTitle title={'This is APP component'}/>
-            <Accordion titleValue={'MENU'}/>
-            <Accordion titleValue={'USERS'}/>
+            <Accordion titleValue={'MENU'} collapsed={true}/>
+            <Accordion titleValue={'USERS'} collapsed={false}/>
             <Rating value={0}/>
             <Rating value={1}/>
             <Rating value={2}/>
