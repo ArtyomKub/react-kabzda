@@ -1,19 +1,35 @@
 import React from 'react';
+import './OnOff.css'
 
 type OnOffType = {
     working: boolean
 }
 
-export const OnOff: React.FC<OnOffType> = () => {
+export const OnOff = (props: OnOffType) => {
+
+    if(props.working) {
+        return (
+            <div>
+                <button className='work'>On</button>
+                <button>Off</button>
+                <button className='circle_work'></button>
+            </div>
+        )
+    }
     return (
         <div>
-            if
-
-
             <button>On</button>
-            <button>Off</button>
+            <button className="error">Off</button>
+            <button className="circle_error"></button>
         </div>
-    );
+    )
+
+    // if (props.working === true) {
+    //         <button color="green">On</button>
+    //     } else {
+    //         <button color="red">Off</button>
+    //     }
+
 };
 
 //true - green button and circle
