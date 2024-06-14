@@ -1,0 +1,23 @@
+.work {
+    background-color: green;
+}
+
+.error {
+    background-color: red;
+}
+
+.circle_work{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: green;
+}
+
+.circle_error{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: red;
+}
