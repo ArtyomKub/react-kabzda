@@ -1,6 +1,6 @@
 import React from 'react';
 
-const OnOff = () => {
+export const OnOff = () => {
     return (
         <div>
             <button>On</button>
@@ -11,5 +11,3 @@ const OnOff = () => {
 
 //true - green button and circle
 // false - red button and circle
-
-export default OnOff;
