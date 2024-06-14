@@ -1,8 +1,15 @@
 import React from 'react';
 
-export const OnOff = () => {
+type OnOffType = {
+    working: boolean
+}
+
+export const OnOff: React.FC<OnOffType> = () => {
     return (
         <div>
+            if
+
+
             <button>On</button>
             <button>Off</button>
         </div>
